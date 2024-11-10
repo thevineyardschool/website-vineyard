@@ -91,7 +91,7 @@ h6 {
 ------------------------------*/
 .php-email-form .error-message {
   display: none;
-  background: #df1529;
+  background: #4ecb67;
   color: #ffffff;
   text-align: left;
   padding: 15px;
@@ -1738,6 +1738,55 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
+}
+
+/*---------- Customized Contact form---*/
+.contact-container {
+  margin-top: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.contact-form .contact-inputs input[type=text],
+.contact-form .contact-inputs input[type=email],
+.contact-form .contact-inputs textarea {
+  font-size: 14px;
+  padding: 10px 15px;
+  box-shadow: none;
+  border-radius: 20px;
+  color: var(--default-color);
+  background-color: color-mix(in srgb, var(--background-color), transparent 50%);
+  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+}
+
+.contact-form-title h2{
+  font-weight: 600;
+  color: #a363aa;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.contact-form-title hr {
+  border: none;
+  width: 120px;
+  height: 5px;
+  background-color: #a363aa;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+.contact-form button{
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  border: 0;
+  padding: 10px 30px;
+  transition: 0.4s;
+  border-radius: 50px;
 }
 
 /*--------------------------------------------------------------
