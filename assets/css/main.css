@@ -178,7 +178,9 @@ h6 {
 .scrolled .header {
   --background-color: #10058c;
 }
-
+.rmbox{
+  display:none;
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1012,6 +1014,7 @@ section,
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  border:none;
 }
 
 .about .content .read-more i {
@@ -1029,7 +1032,9 @@ section,
 .about .content .read-more:hover i {
   margin-left: 10px;
 }
-
+.about .content .read-more:focus{
+  outline:none;
+}
 .about .icon-box {
   background-color: var(--surface-color);
   padding: 50px 40px;
