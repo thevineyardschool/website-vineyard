@@ -15,6 +15,6 @@ function changeReadMore() {
         rmcontent.style.display = 'none';
         span1.style.display = 'inline';
         rmbutton.textContent = 'Read More'; 
-        window.scrollTo(900,900);       
+        window.scrollTo(1200,1200);       
     }
 }
