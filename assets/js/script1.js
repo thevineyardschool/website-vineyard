@@ -7,14 +7,14 @@ function changeReadMore() {
 
     if (rmcontent.style.display === 'none'
         || rmcontent.style.display === '') {
-            rmcontent.style.display = 'block';
+        rmcontent.style.display = 'block';
         span1.style.display = 'none';
         rmbutton.textContent = 'Read Less';
-        
+
     } else {
         rmcontent.style.display = 'none';
         span1.style.display = 'inline';
-        rmbutton.textContent = 'Read More'; 
-        window.scrollTo(1200,1200);       
+        rmbutton.textContent = 'Read More';
+        window.scrollTo(1200, 1200);
     }
 }
